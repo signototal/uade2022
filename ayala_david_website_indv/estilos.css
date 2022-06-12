@@ -1,0 +1,263 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #7FC6F5;
+    font-family: 'Roboto',
+    he sans-serif;
+}
+
+/* contenidos generales */
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.boton{
+    height: 32px;
+    background-color: #F57B7B;
+    padding: 0px 20px;
+    color: #1B6FA8;
+    border: none;
+}
+hr{
+    height: 2px;
+    background-color: #F57B7B;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    background-color: #1B6FA8;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F57B7B 3px solid; 
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a:hover{
+    color: #DAE02D;
+    font-weight: 700;
+}
+header .destacado, .actual{
+    color: #F57B7B;
+    font-weight: 700;
+}
+
+/* sección vistas */
+#vista{
+    background-image: url(img/sección-aurea.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+}
+#vista h1{
+    margin-top: 120px;
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+#vista p{
+    font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter{
+    background-color: #1B6FA8;
+    color: aliceblue;
+    padding: 15px;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+/* boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes h2{
+    font-size: 25px;
+    text-align: left;
+    color: #1B6FA8;
+    margin-bottom: 0;
+}
+#boxes .box img{
+    width: 130px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+#boxes p{
+    font-size: 15px;
+    padding: 0 20px;heade
+}
+#boxes h3{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* footer */
+footer{
+    padding: 20px;
+    background-color: #F57B7B;
+    margin-top: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+/* somos */
+#vista_somos{
+    background-image: url(img/header1.jpg);
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.407);
+}
+#vista_somos h1{
+    margin: 0;
+    line-height: 200px;
+    font-size: 100px;
+    font-weight: lighter;
+}
+article.texto_somos{
+    float: left;
+    max-width: 60%;
+}
+aside.cuadrito{
+    float: right;
+    width: 30%;
+    margin-top: 90px;
+    padding: 10px;
+    background-color: #1B6FA8;
+    color: aliceblue;
+}
+.texto_somos{
+    font-size: 15px;
+    color: #1B6FA8;
+}
+.titulo_somos{
+    font-size: 27px;
+    margin-bottom: 0;
+}
+.destacados{
+    font-size: 15px;
+    background-color: #1B6FA8;
+    color: aliceblue;
+    padding: 10px;
+}
+
+/* media queri */
+@media (max-width: 768px){
+    header{
+        padding-bottom: 20px;
+    }
+    header #logo,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header #logo h1{
+        font-size: 40px;
+    }
+    ul{
+        margin-top: 10px;
+    }
+    header li{
+        padding: 0 10px;
+    }
+    header a{
+        font-size: 18px;
+    }
+    #vista h1{
+        margin-top: 40px;
+    }
+    #vista p{
+        font-size: 19px;
+    }
+    #newsletter h3,
+    #newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #newsletter input[type="email"]{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .boton{
+        width: 100%;
+        display: block;
+    }
+    #boxes .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    #boxes h2{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    #boxes p{
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    #boxes h3{
+        font-size: 25px;
+    }
+}
+
+/* Contacto */
+aside.cuadrito .contacto input,
+aside.cuadrito .contacto textarea{
+    width: 90%; padding: 5px;
+}
+::placeholder{
+    font-family: 'Roboto',
+    he sans-serif;
+    color: #1b70a881;
+}
+.mapa{
+    margin-top: 30px;
+}
+

@@ -1,0 +1,42 @@
+
+.flexbox_padre_contenedor{
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hijo{
+    border: 1px solid #F57B7B;
+    background-color: aliceblue;
+    color: #1B6FA8;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox_padre_redes{
+    border: 1px solid rgb(255, 0, 51);
+    background-color: rgb(121, 188, 202);
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.redes{
+    margin-right: 20px;
+}
+.redes img{
+    max-width: 50px;
+}
